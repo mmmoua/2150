@@ -1,4 +1,4 @@
-public class FileException extends FileNotFoundException{
+public class FileException extends FileMissingException{
     public FileException() {
         super();
     }
